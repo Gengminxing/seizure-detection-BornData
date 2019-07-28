@@ -1,15 +1,21 @@
 # seizure-detection-BornData
-A code package of the classification with Born Seizure Data (5 classes), using various machine learning and deep learning method.
+### Abstract
+  A code package of the classification with Born Seizure Data (5 classes), using various machine learning.
+  
+  关于波恩大学癫痫数据的特征提取方法,使用多种机器学习方法进行分类
 
-数据集: 波恩大学-癫痫脑电数据
+### Feature Extraction Method
+* 功率谱密度
+* 时频统计特征 (Mean / Std / Skewness / Kurtosis)
+* 小波系数的统计特征
+* 短时傅里叶变换 + 奇异值分解 (STFT + SVD)
 
-特征提取方法: 
-1. 功率谱密度
-2. 其他时频特征
+### Classification
+* SVM
+* Logistic Regerssion
+* Random Forest
+* Xgboost
 
-分类器:
-1. SVM
-2. Logistic Regerssion
-3. Decision Tree(CART)
-4. Random Forest
-5. CNN
+### References
+* [我的机器学习之旅](https://blog.csdn.net/AndrewMX/article/details/94444188)
+* [主成分分析的实现(Python源代码)](https://blog.csdn.net/AndrewMX/article/details/94161223)
