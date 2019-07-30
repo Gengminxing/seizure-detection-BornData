@@ -1,4 +1,10 @@
 # seizure-detection-BornData
+### 更新日志
+* 2019-7-30  上传数据,分类方法
+* 2019-6-5   上传分类方法和测试比较
+* 2019-3-4   数据提取模块上传
+* 2018-12-29 开始试验,整理数据
+
 ### Abstract
   A code package of the classification with Born Seizure Data (5 classes), using various machine learning.
   
